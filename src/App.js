@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="hero">
       <div className="container">
-        <img src={Logo} alt="voever.com" />
+        <span className="logo">
+          <img src={Logo} alt="voever.com" />
+        </span>
         <div className="content">
           <h2 className="tagline">coming up</h2>
           <p className="description">
