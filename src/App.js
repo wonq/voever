@@ -5,11 +5,11 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <div className="App-header">
-        <img src={Logo} />
-        <h2>coming up</h2>
-        <p>
+    <div className="hero">
+      <div className="container">
+        <img src={Logo} alt="voever.com" />
+        <h2 className="tagline">coming up</h2>
+        <p className="description">
           Hold tight as we get our working robots together and produce the most
           astonishing product ever.
         </p>
