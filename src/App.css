@@ -34,3 +34,8 @@
   font-family: "Cairo", sans-serif;
   font-size: 1.25rem;
 }
+
+.contacts {
+  display: flex;
+  list-style: none;
+}
