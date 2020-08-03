@@ -13,7 +13,9 @@ function App() {
     <div className="hero">
       <div className="container">
         <span className="logo">
-          <img src={logo} alt="voever.com" />
+          <a title="Voever" href="/">
+            <img src={logo} alt="voever.com" />
+          </a>
         </span>
         <div className="content">
           <h2 className="tagline">coming up</h2>
