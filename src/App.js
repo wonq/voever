@@ -14,6 +14,7 @@ function App() {
       <div className="container">
         <span className="logo">
           <a title="Voever" href="/">
+            <h1 className="screen-reader-text">Voever</h1>
             <img src={logo} alt="voever.com" />
           </a>
         </span>
@@ -31,6 +32,7 @@ function App() {
               href="https://instagram.com/voever.studio?igshid=1ahik7usnuxai"
               target="_blank"
             >
+              <span className="screen-reader-text">Instagram</span>
               <img src={instagram} alt="instagram" />
             </a>
           </li>
@@ -40,6 +42,7 @@ function App() {
               href="https://www.youtube.com/channel/UCvQt5EHKxby2u8hHx3S7q5w"
               target="_blank"
             >
+              <span className="screen-reader-text">Youtube</span>
               <img src={youtube} alt="youtube" />
             </a>
           </li>
@@ -49,11 +52,13 @@ function App() {
               href="https://vt.tiktok.com/yjQGuG/"
               target="_blank"
             >
+              <span className="screen-reader-text">TikTok</span>
               <img src={tiktok} alt="tiktok" />
             </a>
           </li>
           <li>
-            <a title="Phone" href="tel: +6281296921392" target="_blank">
+            <a title="Phone" href="tel: +6281296921392">
+              <span className="screen-reader-text">Phone</span>
               <img src={phone} alt="phone" />
             </a>
           </li>
@@ -63,6 +68,7 @@ function App() {
               href="mailto: voeverstudio@gmail.com"
               target="_blank"
             >
+              <span className="screen-reader-text">Mail</span>
               <img src={email} alt="email" />
             </a>
           </li>
