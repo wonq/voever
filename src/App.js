@@ -24,19 +24,35 @@ function App() {
         </div>
         <ul className="contacts">
           <li>
-            <img src={instagram} alt="instagram" />
+            <a
+              href="https://instagram.com/voever.studio?igshid=1ahik7usnuxai"
+              target="_blank"
+            >
+              <img src={instagram} alt="instagram" />
+            </a>
           </li>
           <li>
-            <img src={youtube} alt="youtube" />
+            <a
+              href="https://www.youtube.com/channel/UCvQt5EHKxby2u8hHx3S7q5w"
+              target="_blank"
+            >
+              <img src={youtube} alt="youtube" />
+            </a>
           </li>
           <li>
-            <img src={tiktok} alt="tiktok" />
+            <a href="https://vt.tiktok.com/yjQGuG/" target="_blank">
+              <img src={tiktok} alt="tiktok" />
+            </a>
           </li>
           <li>
-            <img src={phone} alt="phone" />
+            <a href="tel: +6281296921392" target="_blank">
+              <img src={phone} alt="phone" />
+            </a>
           </li>
           <li>
-            <img src={email} alt="email" />
+            <a href="mailto: voeverstudio@gmail.com" target="_blank">
+              <img src={email} alt="email" />
+            </a>
           </li>
         </ul>
       </div>
