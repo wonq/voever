@@ -12,12 +12,12 @@ function App() {
   return (
     <div className="hero">
       <div className="container">
-        <span className="logo">
+        <h1 className="logo">
           <a title="Voever" href="/">
-            <h1 className="screen-reader-text">Voever</h1>
+            <span className="screen-reader-text">Voever</span>
             <img src={logo} alt="voever.com" />
           </a>
-        </span>
+        </h1>
         <div className="content">
           <h2 className="tagline">coming up</h2>
           <p className="description">
