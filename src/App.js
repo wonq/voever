@@ -31,6 +31,7 @@ function App() {
               title="Instagram"
               href="https://instagram.com/voever.studio?igshid=1ahik7usnuxai"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <span className="screen-reader-text">Instagram</span>
               <img src={instagram} alt="instagram" />
@@ -41,6 +42,7 @@ function App() {
               title="Youtube"
               href="https://www.youtube.com/channel/UCvQt5EHKxby2u8hHx3S7q5w"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <span className="screen-reader-text">Youtube</span>
               <img src={youtube} alt="youtube" />
@@ -51,6 +53,7 @@ function App() {
               title="TikTok"
               href="https://vt.tiktok.com/yjQGuG/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <span className="screen-reader-text">TikTok</span>
               <img src={tiktok} alt="tiktok" />
@@ -67,6 +70,7 @@ function App() {
               title="Mail"
               href="mailto: voeverstudio@gmail.com"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <span className="screen-reader-text">Mail</span>
               <img src={email} alt="email" />
