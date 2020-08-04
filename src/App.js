@@ -10,74 +10,72 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="hero">
-      <div className="container">
-        <h1 className="logo">
-          <a title="Voever" href="/">
-            <span className="screen-reader-text">Voever</span>
-            <img src={logo} alt="voever.com" />
-          </a>
-        </h1>
-        <div className="content">
-          <h2 className="tagline">coming up</h2>
-          <p className="description">
-            Hold tight as we get our working robots together and produce the
-            most astonishing product ever.
-          </p>
-        </div>
-        <ul className="contacts">
-          <li>
-            <a
-              title="Instagram"
-              href="https://instagram.com/voever.studio?igshid=1ahik7usnuxai"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="screen-reader-text">Instagram</span>
-              <img src={instagram} alt="instagram" />
-            </a>
-          </li>
-          <li>
-            <a
-              title="Youtube"
-              href="https://www.youtube.com/channel/UCvQt5EHKxby2u8hHx3S7q5w"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="screen-reader-text">Youtube</span>
-              <img src={youtube} alt="youtube" />
-            </a>
-          </li>
-          <li>
-            <a
-              title="TikTok"
-              href="https://vt.tiktok.com/yjQGuG/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="screen-reader-text">TikTok</span>
-              <img src={tiktok} alt="tiktok" />
-            </a>
-          </li>
-          <li>
-            <a title="Phone" href="tel: +6281296921392">
-              <span className="screen-reader-text">Phone</span>
-              <img src={phone} alt="phone" />
-            </a>
-          </li>
-          <li>
-            <a
-              title="Mail"
-              href="mailto: voeverstudio@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="screen-reader-text">Mail</span>
-              <img src={email} alt="email" />
-            </a>
-          </li>
-        </ul>
+    <div className="container">
+      <h1 className="logo">
+        <a title="Voever" href="/">
+          <span className="screen-reader-text">Voever</span>
+          <img src={logo} alt="voever.com" />
+        </a>
+      </h1>
+      <div className="content">
+        <h2 className="tagline">coming up</h2>
+        <p className="description">
+          Hold tight as we get our working robots together and produce the most
+          astonishing product ever.
+        </p>
       </div>
+      <ul className="contacts">
+        <li>
+          <a
+            title="Instagram"
+            href="https://instagram.com/voever.studio?igshid=1ahik7usnuxai"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="screen-reader-text">Instagram</span>
+            <img src={instagram} alt="instagram" />
+          </a>
+        </li>
+        <li>
+          <a
+            title="Youtube"
+            href="https://www.youtube.com/channel/UCvQt5EHKxby2u8hHx3S7q5w"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="screen-reader-text">Youtube</span>
+            <img src={youtube} alt="youtube" />
+          </a>
+        </li>
+        <li>
+          <a
+            title="TikTok"
+            href="https://vt.tiktok.com/yjQGuG/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="screen-reader-text">TikTok</span>
+            <img src={tiktok} alt="tiktok" />
+          </a>
+        </li>
+        <li>
+          <a title="Phone" href="tel: +6281296921392">
+            <span className="screen-reader-text">Phone</span>
+            <img src={phone} alt="phone" />
+          </a>
+        </li>
+        <li>
+          <a
+            title="Mail"
+            href="mailto: voeverstudio@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="screen-reader-text">Mail</span>
+            <img src={email} alt="email" />
+          </a>
+        </li>
+      </ul>
     </div>
   );
 }

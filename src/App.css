@@ -1,26 +1,26 @@
-.hero {
-  text-align: center;
-}
-
 .container {
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding-top: 4rem;
-  padding-right: 4rem;
-  padding-bottom: 4rem;
-  padding-left: 4rem;
+  padding-top: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1.25rem;
   box-sizing: border-box;
-  color: #d6d6d6;
-  background-color: #1f1f24;
+  text-align: center;
 }
 
 .logo {
   margin-block-start: 0;
   margin-block-end: 0;
-  padding-top: 4rem;
+  padding-top: 2rem;
+}
+
+.logo img {
+  width: 6.25rem;
 }
 
 .content {
@@ -30,20 +30,30 @@
 .tagline {
   margin-block-end: 0;
   font-family: "Allerta Stencil", sans-serif;
-  font-size: 5.5rem;
+  font-size: 2.25rem;
 }
 
 .description {
-  max-width: 39.375rem;
   margin-block-start: 0.75rem;
   font-family: "Cairo", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
+
+/* @media only screen and (max-width: 480px) and (orientation: landscape) {
+  .tagline {
+    font-size: 5.5rem;
+  }
+
+  .description {
+    font-size: 1.25rem;
+  }
+} */
 
 .contacts {
   display: flex;
   list-style: none;
-  padding: 0;
+  padding-left: 0;
+  padding-bottom: 2rem;
 }
 
 li {
