@@ -24,7 +24,7 @@
 }
 
 .content {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .tagline {
@@ -34,6 +34,7 @@
 }
 
 .description {
+  max-width: 31.25rem;
   margin-block-start: 0.75rem;
   font-family: "Cairo", sans-serif;
   font-size: 1.125rem;
