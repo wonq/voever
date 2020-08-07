@@ -41,15 +41,35 @@
   line-height: 1.4;
 }
 
-/* @media only screen and (max-width: 480px) and (orientation: landscape) {
-  .tagline {
-    font-size: 5.5rem;
+@media only screen and (min-width: 768px) and (orientation: portrait),
+  only screen and (min-width: 992px) and (orientation: landscape) {
+  .container {
+    padding-top: 3.75rem;
+    padding-right: 2.5rem;
+    padding-bottom: 3.75rem;
+    padding-left: 2.5rem;
   }
 
-  .description {
-    font-size: 1.25rem;
+  .logo {
+    padding-top: 4rem;
   }
-} */
+
+  .logo img {
+    width: 7.5rem;
+  }
+}
+
+/*
+@media only screen and (min-width: 480px) and (orientation: landscape) {}
+
+@media
+	only screen and (min-width: 768px) and (orientation: portrait),
+	only screen and (min-width: 992px) and (orientation: landscape) {}
+
+@media
+	only screen and (min-width: 1080px) and (orientation: portrait),
+  only screen and (min-width: 1920px) and (orientation: landscape) {}
+*/
 
 .contacts {
   display: flex;
