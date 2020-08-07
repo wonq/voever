@@ -69,17 +69,22 @@
   }
 }
 
-/*
-@media only screen and (min-width: 480px) and (orientation: landscape) {}
+@media only screen and (min-width: 1080px) and (orientation: portrait),
+  only screen and (min-width: 1920px) and (orientation: landscape) {
+  .logo img {
+    width: 10rem;
+  }
 
-@media
-	only screen and (min-width: 768px) and (orientation: portrait),
-	only screen and (min-width: 992px) and (orientation: landscape) {}
+  .tagline {
+    font-size: 5.5rem;
+  }
 
-@media
-	only screen and (min-width: 1080px) and (orientation: portrait),
-  only screen and (min-width: 1920px) and (orientation: landscape) {}
-*/
+  .description {
+    margin-block-start: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.7;
+  }
+}
 
 .contacts {
   display: flex;
