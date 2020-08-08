@@ -44,9 +44,19 @@
 
 @media only screen and (orientation: landscape) {
   .container {
-    /* background-image: url(./images/bg-1080x1920.jpg);
-    background-image: url(./images/bg-1920x1080.jpg); */
     background-image: url(./images/bg-900x512.jpg);
+  }
+}
+
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+  .container {
+    background-image: url(./images/bg-1080x1920.jpg);
+  }
+}
+
+@media only screen and (min-width: 992px) and (orientation: landscape) {
+  .container {
+    background-image: url(./images/bg-1920x1080.jpg);
   }
 }
 
