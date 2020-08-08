@@ -34,12 +34,20 @@
   padding-left: 1.25rem;
   box-sizing: border-box;
   text-align: center;
-  background-image: url(./images/bg-1920x1080.jpg);
+  background-image: url(./images/bg-512x900.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   animation: 1s fade-in;
+}
+
+@media only screen and (orientation: landscape) {
+  .container {
+    /* background-image: url(./images/bg-1080x1920.jpg);
+    background-image: url(./images/bg-1920x1080.jpg); */
+    background-image: url(./images/bg-900x512.jpg);
+  }
 }
 
 .logo {
