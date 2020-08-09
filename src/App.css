@@ -139,21 +139,31 @@
 
 .contacts {
   display: flex;
+  width: 15.625rem;
+  align-items: center;
+  justify-content: space-between;
   list-style: none;
   padding-left: 0;
-  padding-bottom: 1rem;
+  animation: fade-zoom-in 0.6s ease-in-out both;
 }
 
-li {
-  margin-right: 0.25rem;
-  margin-left: 0.25rem;
+a {
+  opacity: 1;
+  transition: opacity 0.3s ease-out;
 }
 
 li img {
-  width: 1.375rem;
   padding-top: 0.25rem;
   padding-right: 0.625rem;
   padding-bottom: 0.25rem;
   padding-left: 0.625rem;
-  animation: fade-zoom-in 0.6s ease-in-out both;
+  width: 1.375rem;
+}
+
+ul:hover a {
+  opacity: 0.5;
+}
+
+ul:hover a:hover {
+  opacity: 1;
 }
