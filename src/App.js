@@ -35,8 +35,8 @@ function App() {
       <div className="content">
         <h2 className="tagline">coming up</h2>
         <p className="description">
-          Hold tight as we get our working robots together and produce the most
-          astonishing product ever.
+          We're creating something exciting in the house and about to launch
+          soon. Thank you so much for your interest
         </p>
       </div>
       <ul className="contacts">
