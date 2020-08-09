@@ -60,6 +60,27 @@
   }
 }
 
+video {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.layer {
+  position: fixed;
+  z-inde: -1;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(20, 20, 28, 0.84);
+}
+
 .logo {
   margin-block-start: 0;
   margin-block-end: 0;

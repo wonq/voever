@@ -6,11 +6,26 @@ import youtube from "./images/icon-youtube.svg";
 import tiktok from "./images/icon-tiktok.svg";
 import phone from "./images/icon-phone.svg";
 import email from "./images/icon-email.svg";
+import video from "./images/friday-wish.mp4";
+
 import "./App.css";
 
 function App() {
   return (
     <div className="container">
+      <video
+        autoPlay
+        loop
+        playsInline
+        // muted
+      >
+        <source
+          src={video}
+          // src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/Island%20-%204141.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div className="layer" />
       <h1 className="logo">
         <a title="Voever" href="/">
           <span className="screen-reader-text">Voever</span>
