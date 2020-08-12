@@ -6,6 +6,8 @@ import youtube from "./images/icon-youtube.svg";
 import tiktok from "./images/icon-tiktok.svg";
 import phone from "./images/icon-phone.svg";
 import email from "./images/icon-email.svg";
+import maps from "./images/icon-maps.svg";
+import whatsapp from "./images/icon-whatsapp.svg";
 import "./App.css";
 
 function App() {
@@ -59,9 +61,31 @@ function App() {
           </a>
         </li>
         <li>
-          <a title="Phone" href="tel: +6281296921392">
+          <a
+            title="Maps"
+            href="https://goo.gl/maps/6CD9WqAm8oXeLcEq6"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="screen-reader-text">Maps</span>
+            <img src={maps} alt="maps" />
+          </a>
+        </li>
+        <li>
+          <a title="Phone" href="tel: +6281210511199">
             <span className="screen-reader-text">Phone</span>
             <img src={phone} alt="phone" />
+          </a>
+        </li>
+        <li>
+          <a
+            title="Whatsapp"
+            href="https://wa.me/081210511199"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="screen-reader-text">Whatsapp</span>
+            <img src={whatsapp} alt="whatsapp" />
           </a>
         </li>
         <li>

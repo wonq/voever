@@ -94,7 +94,6 @@
 
 .contacts {
   display: flex;
-  width: 250px;
   align-items: center;
   justify-content: space-between;
   list-style: none;
