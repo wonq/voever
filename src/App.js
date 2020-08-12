@@ -80,7 +80,7 @@ function App() {
         <li>
           <a
             title="Whatsapp"
-            href="https://wa.me/081210511199"
+            href="https://wa.me/+6281210511199"
             target="_blank"
             rel="noopener noreferrer"
           >
