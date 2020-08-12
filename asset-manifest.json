@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.377eef62.chunk.css",
-    "main.js": "/static/js/main.17e39c96.chunk.js",
+    "main.css": "/static/css/main.54e5d64f.chunk.css",
+    "main.js": "/static/js/main.b62ed0a6.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.6fd8f3ec.js",
-    "static/js/2.0c5ce276.chunk.js": "/static/js/2.0c5ce276.chunk.js",
+    "static/js/2.10e88408.chunk.js": "/static/js/2.10e88408.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.a460bc0e70042523078fd73ae6421090.js": "/precache-manifest.a460bc0e70042523078fd73ae6421090.js",
+    "precache-manifest.ed9560c42019eaf35d78332581a3a38f.js": "/precache-manifest.ed9560c42019eaf35d78332581a3a38f.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.0c5ce276.chunk.js.LICENSE.txt": "/static/js/2.0c5ce276.chunk.js.LICENSE.txt",
+    "static/js/2.10e88408.chunk.js.LICENSE.txt": "/static/js/2.10e88408.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/bg-900x512.aef97769.jpg",
     "static/media/icon-email.svg": "/static/media/icon-email.c81e692a.svg",
     "static/media/icon-instagram.svg": "/static/media/icon-instagram.181a3e79.svg",
+    "static/media/icon-maps.svg": "/static/media/icon-maps.91b19e2a.svg",
     "static/media/icon-phone.svg": "/static/media/icon-phone.775028bc.svg",
     "static/media/icon-tiktok.svg": "/static/media/icon-tiktok.920e7152.svg",
+    "static/media/icon-whatsapp.svg": "/static/media/icon-whatsapp.0b9af475.svg",
     "static/media/icon-youtube.svg": "/static/media/icon-youtube.d649b89f.svg",
     "static/media/logo.svg": "/static/media/logo.74d684a0.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6fd8f3ec.js",
-    "static/js/2.0c5ce276.chunk.js",
-    "static/css/main.377eef62.chunk.css",
-    "static/js/main.17e39c96.chunk.js"
+    "static/js/2.10e88408.chunk.js",
+    "static/css/main.54e5d64f.chunk.css",
+    "static/js/main.b62ed0a6.chunk.js"
   ]
 }
